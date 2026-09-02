@@ -7,7 +7,8 @@
 
 ### 1.1 Contexte
 
-Nextoo est une société de conseil qui place des collaborateurs (consultants) en mission longue durée chez des clients (Decathlon, BNP Paribas, SNCF, Leroy Merlin, CapGemini, etc.). Pour maintenir un lien humain avec ces collaborateurs éloignés du siège, l'entreprise s'appuie sur des référents internes appelés **Proxxi**, chargés d'organiser des rendez-vous réguliers de suivi (en restaurant, sur site client, ou en visio).
+Nextoo est une société de conseil qui place des collaborateurs (consultants) en mission longue durée chez des clients (Decathlon, BNP Paribas, SNCF, Leroy Merlin, CapGemini, etc.).
+Pour maintenir un lien humain avec ces collaborateurs, l'entreprise s'appuie sur des référents internes appelés **Proxxi**, chargés d'organiser des rendez-vous réguliers de suivi (en restaurant, sur site client, ou en visio).
 
 ### 1.2 Problématique
 
@@ -19,7 +20,7 @@ Aujourd'hui, ce suivi repose entièrement sur des pratiques manuelles et non cen
 - Le reporting vers les administrateurs RH est réalisé manuellement, ce qui est chronophage et source d'erreurs.
 - Une prime de suivi, conditionnée à la réalisation d'un minimum de **3 rendez-vous par exercice fiscal** et par collaborateur, n'est actuellement pas trackée, ce qui pénalise potentiellement les Proxxi.
 
-**Pour qui :** les 8 Proxxi (utilisateurs terrain) et les 3 administrateurs RH (Sunita, Christophe, Cédric), qui pilotent le dispositif de suivi à l'échelle de l'entreprise.
+**Pour qui :** les 8 Proxxi (utilisateurs terrain) et les 3 administrateurs (Sunita, Christophe, Cédric), qui pilotent le dispositif de suivi à l'échelle de l'entreprise.
 
 **Pourquoi :** garantir un suivi humain réel et mesurable des collaborateurs en mission, sécuriser le versement des primes liées au suivi, et permettre une détection précoce des situations à risque.
 
@@ -87,7 +88,7 @@ Ce questionnaire déclenche automatiquement, si nécessaire, la création d'une 
 - Consulter la liste et le statut de ses collaborateurs assignés
 - Consulter son propre tableau de bord
 
-**Administrateur** *(3 comptes : Sunita, Christophe, Cédric)* — hérite de toutes les actions du Proxxi, plus :
+**Administrateur** *(3 comptes : Sunita, Christophe, Cédric)* - hérite de toutes les actions du Proxxi, plus :
 - Assigner un collaborateur à un Proxxi
 - Consulter l'ensemble des résultats et statistiques, tous Proxxi confondus
 - Recevoir et traiter les alertes remontées par le système
@@ -102,6 +103,8 @@ Se connecter via Google OAuth → consulter ses collaborateurs → organiser un 
 
 **Acteur « Administrateur »** *(hérite du Proxxi)*
 Assigner un collaborateur à un Proxxi, consulter les statistiques globales, exporter un reporting PowerPoint, consulter et traiter les alertes.
+
+![Diagramme_UML-Use_Case_ProxxiConnect.png](../../Ressources/Diagramme_UML-Use_Case_ProxxiConnect.png)
 
 ### 2.5 Modèle de données (aperçu MCD)
 
