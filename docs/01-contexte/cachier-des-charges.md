@@ -7,7 +7,7 @@
 
 ### 1.1 Contexte
 
-Nextoo est une société de conseil qui place des collaborateurs (consultants) en mission longue durée chez des clients (Decathlon, BNP Paribas, SNCF, Leroy Merlin, CapGemini, etc.).
+Nextoo est une société de conseil qui place des collaborateurs (consultants) en mission chez des clients (Decathlon, BNP Paribas, SNCF, Leroy Merlin, CapGemini, etc.).
 Pour maintenir un lien humain avec ces collaborateurs, l'entreprise s'appuie sur des référents internes appelés **Proxxi**, chargés d'organiser des rendez-vous réguliers de suivi (en restaurant, sur site client, ou en visio).
 
 ### 1.2 Problématique
@@ -41,7 +41,7 @@ ProxxiConnect est une application web interne, mobile-first, qui centralise l'en
 
 ## 2. Cahier des charges fonctionnel
 
-### 2.1 Fonctionnalité principale : le questionnaire de suivi post-RDV
+### 2.1 Fonctionnalité principale : le questionnaire de suivi RDV
 
 C'est le **cœur de valeur** de l'application : sans ce questionnaire structuré, il n'y a ni traçabilité, ni détection de risque, ni statistiques fiables. Toutes les autres fonctionnalités (tableaux de bord, alertes, exports) sont construites à partir des données qu'il génère.
 
@@ -62,23 +62,23 @@ Le questionnaire est rempli par le Proxxi immédiatement après chaque rendez-vo
 **Bloc 3 — Suivi et actions**
 - Points d'amélioration identifiés
 - Formations suivies / à prévoir
-- Aide EAE (entretien annuel d'évaluation) si besoin
+- Aide BA (bilan annuel) si besoin
 - Plan d'action pour la suite
 - Commentaire libre du Proxxi
 - Validation et verrouillage du compte-rendu
 
-Ce questionnaire déclenche automatiquement, si nécessaire, la création d'une **alerte** (type, description, date, statut) transmise aux administrateurs. Une fois validé, un questionnaire ne peut plus être modifié.
+Ce questionnaire déclenche automatiquement, un email transmis aux administrateurs. Une fois validé, un questionnaire ne peut plus être modifié.
 
 ### 2.2 Fonctionnalités secondaires
 
 | Fonctionnalité | Description |
 |---|---|
-| Tableaux de bord | Statistiques météo, comparatifs entre collaborateurs, alertes et priorités, prochains RDV à planifier |
+| Tableaux de bord | Statistiques météo, comparatifs entre collaborateurs (côté Admin),  prochains RDV à planifier (côté Proxxi) |
 | Suivi du quota de primes | Indicateur « RDV réalisés / RDV attendus par exercice fiscal » (ex. 2/3) affiché par collaborateur. L'exercice fiscal court du 1er août N-1 au 31 juillet N |
 | Notifications | Rappel automatique tous les 3 mois, complété par un rappel supplémentaire 2 mois après une rencontre, pour garantir le respect du quota de suivi |
 | Détection des risques | Remontée automatique d'alertes (burnout, démotivation, isolement) à partir des réponses au questionnaire |
 | Authentification | Connexion sécurisée via Google OAuth (compte Nextoo) |
-| Export reporting | Génération de synthèses au format PowerPoint (.pptx) pour les comités de pilotage RH |
+| Export reporting | Génération de synthèses au format PowerPoint (.pptx) pour Sunita qui s'occupe du pilotage Proxxi |
 
 ### 2.3 Acteurs et droits d'accès
 
@@ -191,18 +191,28 @@ Politique de conservation des données fixée à **5 ans**, conforme aux exigenc
 - Envoi des notifications par email via Java Mail Sender.
 - API Google OAuth2 pour l'authentification.
 
-### 3.7 Charte graphique et ergonomie (contrainte transverse)
+### 3.7 Charte graphique, ergonomie et éco-conception (contraintes transverses)
 
-| Couleur | Usage |
-|---|---|
-| Bleu Galactique `#0B3B68` (RVB 005 059 088) | Texte, sous-titres, fonds secondaires |
-| Rouge T65 `#BF2D18` (RVB 191 045 024) | Titres, éléments importants |
-| Blanc Stormtrooper `#F9F9F9` (RVB 249 249 249) | Fonds principaux |
+#### Contraintes transverses
+   **Contrainte**       | **Description**                                                                                                                                                                                                 |
+ |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mobile-first**     | Interface pensée pour une saisie rapide en situation de mobilité (ex. : remplir le questionnaire juste après un rendez-vous). |
+| **Accessibilité**    | Respect des bonnes pratiques WCAG (contrastes, tailles de texte, navigation clavier) pour garantir une utilisation inclusive.                                                                                   |
+| **Éco-conception**   | Réduction de l'empreinte environnementale de l'application :
+- Optimisation des requêtes backend (pagination, cache) et frontend (lazy loading, compression des assets) pour limiter la consommation énergétique.
+- Limitation du stockage des données (politique de conservation à **5 ans**, conforme au RGPD).
+- Design sobre : couleurs et polices définies pour minimiser le poids visuel (évitement des animations énergivores). |
 
-| Typographie | Usage |
-|---|---|
-| Montserrat Regular | Paragraphes et contenus |
-| Montserrat Semi-Bold | Boutons et mise en avant |
-| Krona One | Titres et sous-titres |
+#### Couleurs
+| **Couleur**            | **Usage**                          |
+ |------------------------|------------------------------------|
+| Bleu Galactique `#0B3B68` | Texte, sous-titres, fonds secondaires |
+| Rouge T65 `#BF2D18`    | Titres, éléments importants        |
+| Blanc Stormtrooper `#F9F9F9` | Fonds principaux |
 
-**Contrainte d'accessibilité mobile-first :** interface pensée pour une saisie rapide en situation de mobilité (juste après un rendez-vous), avec un minimum de champs obligatoires sur les écrans les plus fréquemment utilisés (questionnaire, tableau de bord).
+#### Typographie
+| **Typographie**        | **Usage**                          |
+ |------------------------|------------------------------------|
+| Montserrat Regular     | Paragraphes et contenus            |
+| Montserrat Semi-Bold   | Boutons et mise en avant           |
+| Krona One              | Titres et sous-titres              |
