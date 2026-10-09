@@ -19,7 +19,8 @@ Objectifs avec ProxxiConnect
 * Identifier rapidement les situations à risque ;  
 * \- Suivre les statistiques de suivi des Proxxi ;  
 * \- Préparer facilement les reportings semestriels ;  
-* \- Vérifier le respect des obligations liées aux primes.
+* \- Vérifier le respect des obligations liées aux primes ;
+* \- Vérifier que le projet s'inscrit dans une démarche d'éco-conception.
 
 Motivations
 

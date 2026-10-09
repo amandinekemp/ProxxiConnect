@@ -195,11 +195,11 @@ Prérequis réseau : VPN obligatoire. En cas d'échec de connexion, désactiver 
 
 ## 13. Documentation
 
-- Cahier des charges complet : [Cahier des charges ProxxiConnect](./docs/cahier-des-charges.md)
-- Personas : dossier `docs/00-/Personas/`
-- Modèle de données (MCD, MLD, MPD) : `docs/03-conception/MLD_MCD_MPD/`
-- Maquettes et wireframes : `docs/03-conception/maquettes/`
-- Documentation d'équipe et onboarding : espace Confluence, page « Livret d'accueil »
+- Cahier des charges complet : [cachier-des-charges.md](docs/01-contexte/cachier-des-charges.md)
+- Personas : dossier [Personas](docs/00-/Personas)
+- Modèle de données (MCD, MLD, MPD) : ![MCD_MLD_MPD_ProxxiConnect.drawio.png](docs/03-conception/MLD_MCD_MPD/MCD_MLD_MPD_ProxxiConnect.drawio.png)
+- Maquettes et wireframes : [maquettes](docs/03-conception/maquettes)
+- Documentation d'équipe et onboarding : espace Confluence
 
 ## 14. Contribuer
 
