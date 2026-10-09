@@ -191,8 +191,6 @@ Déploiement : construction des images avec JIB (backend) et Nginx (frontend), p
 
 En cas d'échec visible dans les logs : corriger sur une branche dédiée, fusionner dans develop, puis créer un nouveau tag. Les tentatives automatiques du Build peuvent retarder l'affichage de l'erreur de quelques minutes.
 
-Prérequis réseau : VPN obligatoire. En cas d'échec de connexion, désactiver l'IPv6 sur la carte réseau (ncpa.cpl, Propriétés, décocher TCP/IPv6).
-
 ## 13. Documentation
 
 - Cahier des charges complet : [cachier-des-charges.md](docs/01-contexte/cachier-des-charges.md)
