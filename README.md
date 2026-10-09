@@ -197,7 +197,7 @@ Prérequis réseau : VPN obligatoire. En cas d'échec de connexion, désactiver 
 
 - Cahier des charges complet : [cachier-des-charges.md](docs/01-contexte/cachier-des-charges.md)
 - Personas : dossier [Personas](docs/00-/Personas)
-- Modèle de données (MCD, MLD, MPD) : ![MCD_MLD_MPD_ProxxiConnect.drawio.png](docs/03-conception/MLD_MCD_MPD/MCD_MLD_MPD_ProxxiConnect.drawio.png)
+- Modèle de données (MCD, MLD, MPD) : [MLD_MCD_MPD](docs/03-conception/MLD_MCD_MPD)
 - Maquettes et wireframes : [maquettes](docs/03-conception/maquettes)
 - Documentation d'équipe et onboarding : espace Confluence
 
