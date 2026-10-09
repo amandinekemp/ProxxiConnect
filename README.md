@@ -400,7 +400,7 @@ Visualisation claire des données globales de suivi.
 
 Le dictionnaire de données, le MCD, le MLD et le MPD détaillés sont disponibles en annexe technique.
 
-![MCD_MLD_MPD_ProxxiConnect.drawio.png](../docs/03-conception/MLD_MCD_MPD/MCD_MLD_MPD_ProxxiConnect.drawio.png)
+![MCD_MLD_MPD_ProxxiConnect.drawio.png](docs/03-conception/MLD_MCD_MPD/MCD_MLD_MPD_ProxxiConnect.drawio.png)
 
 ---
 
