@@ -207,9 +207,7 @@ Prérequis réseau : VPN obligatoire. En cas d'échec de connexion, désactiver 
 2. Créer une branche `feature/` depuis develop.
 3. Développer en respectant la Definition of Done.
 4. Ouvrir une Merge Request vers develop avec le titre et la description attendus.
-5. Attendre la revue de code et la validation de la pipeline.
-
-Les sessions de pair programming sont encouragées pour les nouveaux contributeurs.
+5. Attendre la validation de la pipeline.
 
 ## 15. Contact
 
