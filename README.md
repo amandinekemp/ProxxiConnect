@@ -67,7 +67,7 @@ Backend, en couches : Controller (API REST), Service (logique applicative), Repo
 
 Frontend : pages, composants réutilisables, stores Pinia, clients API centralisés, router avec routes protégées, styles Tailwind CSS et Shadcn Vue.
 
-API Google utilisées : Google Identity (authentification), Google Calendar API en lecture seule (planning), Google Workspace Directory API (synchronisation de l'annuaire). Quotas à respecter : 240 lectures et 120 écritures par minute, avec un cache d'environ 1 minute.
+API Google utilisées : Google Identity (authentification).
 
 ## 5. Prérequis
 
