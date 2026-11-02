@@ -348,7 +348,7 @@ Visualisation claire des données globales de suivi.
 
 # 7. Use Cases et diagrammes de séquence
 
-![Diagramme_UML_Cas_d_utilisation_ProxxiConnect](/Ressources/Diagramme_UML-Use_Case_ProxxiConnect.png)
+![Diagramme_UML-Cas_d_utilisation_ProxxiConnect.png](../../Ressources/Diagramme_UML-Cas_d_utilisation_ProxxiConnect.png)
 
 ## Cas d'usage principaux par acteur
 
