@@ -31,6 +31,8 @@
 
 # 1. Présentation du projet
 
+[Cahier_des_charges_ProxxiConnect.pptx.pdf](/Ressources/Cahier_des_charges_ProxxiConnect.pptx.pdf)
+
 ## Nom du projet : ProxxiConnect
 
 ### Contexte
