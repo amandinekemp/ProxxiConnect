@@ -793,7 +793,9 @@ Cérémonies : Sprint Planning, Sprint Review, Rétrospective, Refinement / Back
 
 ## Roadmap
 
-La roadmap du projet, avec les priorités des prochaines livraisons, est présentée dans le cahier des charges.
+La roadmap du projet, avec les priorités des prochaines livraisons.
+
+![roadmap_proxxiconnect.png](/Ressources/roadmap_proxxiconnect.png)
 
 ## Onboarding des futurs collaborateurs
 
@@ -831,7 +833,7 @@ En cas d'erreur visible dans les logs, la correction se fait sur une branche dé
 
 L'interface devra respecter l'identité graphique de Nextoo afin de conserver une cohérence avec l'écosystème de l'entreprise.
 
-![Charte_graphique_ProxxiConnect](../docs/03-conception/maquettes/chartenextoo.png)
+![Charte_graphique_ProxxiConnect](/docs/03-conception/maquettes/chartenextoo.png)
 
 ---
 
